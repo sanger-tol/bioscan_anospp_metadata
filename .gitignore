@@ -1,3 +1,16 @@
+# pickled locations
+*.pkl
+
+# NCBI taxonomy
+*.tab
+*.tar.gz
+
+# mac os
+.DS_Store
+
+# open excel
+~$*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
