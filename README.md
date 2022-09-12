@@ -1,2 +1,2 @@
-# bioscan_metadata
-Metadata handling for BIOSCAN project
+# bioscan_anospp_metadata
+Partner metadata handling for BIOSCAN and ANOSPP projects
