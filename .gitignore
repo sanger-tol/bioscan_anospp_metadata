@@ -1,5 +1,7 @@
 # results
 results/
+# sts manifests generated for test datasets
+data/*_for_sts.xlsx
 
 # pickled locations
 *.pkl
