@@ -1,4 +1,3 @@
-sp.
 annulipalpis
 algeriensis
 concolor
@@ -413,7 +412,6 @@ bwambae
 coluzzii
 fontenillei
 gambiae
-gambiae s.l.
 melas
 merus
 quadriannulatus
