@@ -1,5 +1,16 @@
 # Changelog 
 
+## 0.3.0
+
+- add bioscan manifest v3 support and set it as template, v2 input still supported
+- amend STS output to match v3 manifest, allowing for both v2 and v3 manifests conversion into the same STS output
+- regex validations for all format-sensitive fields including dates, reimplement date comparison
+- date cleanup from time addition by Excel-to-pandas conversion 
+- validate identifier against contributors
+- validate input filename
+- continued error message clarifications
+- logic updates, bug fixes, general refactoring
+- tested on backlog pre-release
 
 ## 0.2.0
 
