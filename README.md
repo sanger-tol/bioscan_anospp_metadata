@@ -27,3 +27,5 @@ Then, in browser at `localhost:8888`,
 - run all cells - note this will take a while on the first time as NCBI Taxonomy is downloaded to `work/taxdump.tar.gz`
 - in the first cell of "Validation" section, replace `fn` value with path to your manifest
 - running the cell should yield the validation report 
+
+NB keep track of `user_agent` value in `Nominatim` function for geocoding
