@@ -42,8 +42,8 @@ git checkout -- work/*.ipynb
 # pull changes from github
 git checkout main
 git pull
-# update Nominatim user agent name - insert your preferred username 
+# update Nominatim user agent name - insert your preferred username instead of "bioscan_am60"
 sed -e -i 's/bioscanManifestTest/bioscan_am60/' work/validate_partner_manifest_dev.ipynb
 ```
 
-Once done, change 
+Once done, the code is ready to use - unless you also want to re-create a conda environment using the commands above.
