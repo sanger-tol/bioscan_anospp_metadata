@@ -29,3 +29,21 @@ Then, in browser at `localhost:8888`,
 - running the cell should yield the validation report 
 
 NB keep track of `user_agent` value in `Nominatim` function for geocoding
+
+
+## Update code
+
+If code needs to be updated, follow these steps
+```bash
+# go to code directory
+cd bioscan_anospp_metadata
+# remove changes made to notebooks - this will erase execution info 
+git checkout -- work/*.ipynb
+# pull changes from github
+git checkout main
+git pull
+# update Nominatim user agent name - insert your preferred username 
+sed -e -i 's/bioscanManifestTest/bioscan_am60/' work/validate_partner_manifest_dev.ipynb
+```
+
+Once done, change 
